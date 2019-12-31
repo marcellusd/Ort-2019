@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ma todo-list</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="css/custom.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+
+	<div id="todolist" class="container">
+		<h1>Ma todo list</h1>	
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="">
+		  <label class="form-check-label strikethrough">
+			Tâche 1
+		  </label>
+		</div>
+		<div class="form-check">
+		  <input class="form-check-input" type="checkbox" value="">
+		  <label class="form-check-label strikethrough">
+			Tâche 2
+		  </label>
+		</div>	
+	</div>
+		
+	<div class="container">	
+	  <div class="form-group">
+		<label>Ajouter une tâche : </label>
+		<input id="addTask" class="form-control"  aria-describedby="addTaskHelp" placeholder="Insérer la tâche ici.">
+		<small id="addTaskHelp" class="form-text text-muted">Ajoute une tâche à la liste courante.</small>
+				<button id="addTaskBtn" type="button" class="btn btn-primary">Ajouter la tâche</button>	
+	  </div>
+	</div> <!-- End container-->
+	
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/custom.js"></script>
+  </body>
+</html>
